@@ -1,0 +1,203 @@
+header{
+    width: 100vw;
+    background-color: rgba(26, 94, 71, 0.897);
+    color: rgba(245, 245, 220, 0.89);
+    text-align: center;
+    text-shadow: bisque;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-variant: small-caps;
+    margin: 0;
+    padding: 20px;
+}
+
+main{
+    width: 100vw;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+    position: absolute;
+}
+
+#myCanvas{
+    position: relative;
+    top: 300px;
+    left: 100px;
+}
+
+#db{
+    position: relative;
+    top: 350px;
+    left: 100px;
+}
+
+button{
+    border-style: none;
+    border-radius: 20px;
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+}
+@media screen and (min-width: 0px) and (max-width: 600px){
+    body{
+        background-color: rgba(180, 173, 173, 0.171);
+    }
+    main{
+        background-size: contain;
+        background-position-x: center;
+    }
+    header{
+        text-align: left;
+        background-color: black;
+        font-size: larger;
+    }
+    #myCanvas{
+        display: block;
+        width: 150px;
+        top: 110px;
+        left: 50px;
+    }
+    #db{
+        width: 100vw;
+        left: 20px;
+        top: 130px;
+        margin: 0;
+    }
+    button{
+        display: unset;
+        font-size: 18px;
+        margin: 0px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 950px){
+    main{
+        width: 100vw;
+        background-size: cover;
+        background-position: center;
+    }
+    #myCanvas{
+        display: block;
+        width: 250px;
+        top: 110px;
+        left: 50px;
+    }
+    #db{
+        width: 100vw;
+        left: 20px;
+        top: 190px;
+        margin: 0;
+    }
+    button{
+        display: unset;
+        font-size: 24px;
+        margin: 10px;
+    }
+}
+@media screen and (min-width: 951px) and (max-width: 1200px){
+    header{
+        background-color: rgb(2, 2, 56);
+        font-size: 50px;
+    }
+    #myCanvas{
+        display: block;
+        width: 500px;
+        top: 200px;
+        left: 50px;
+    }
+    #db{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        top: 200px;
+        left: 0px;
+    }
+    button{
+        display: unset;
+        font-size: 30px;
+        margin: 10px;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 2000px){
+    header{
+        background-color: rgb(56, 2, 2);
+        font-size: 50px;
+    }
+    #myCanvas{
+        display: block;
+        width: 510px;
+        top: 200px;
+        left: 150px;
+    }
+    #db{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        top: 250px;
+        left: 10px;
+    }
+    button{
+        display: unset;
+        font-size: 30px;
+        margin: 20px;
+    }
+}
+@media screen and (min-width: 2001px) and (max-width: 5000px){
+    header{
+        background-color: rgb(54, 2, 56);
+        font-size: 80px;
+    }
+    main{
+        width: 100vw;
+        height: 80vh;
+    }
+    #myCanvas{
+        display: block;
+        width: 890px;
+        top: 390px;
+        left: 250px;
+    }
+    #db{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        top: 350px;
+        left: 10px;
+    }
+    button{
+        display: unset;
+        font-size: 50px;
+        margin: 20px;
+        padding: 20px 40px;
+    }
+}
+@media screen and (min-width: 5001px) and (max-width: 9000px){
+    header{
+        background-color: rgb(10, 56, 2);
+        font-size: 110px;
+    }
+    main{
+        width: 100vw;
+        height: 90vh;
+    }
+    #myCanvas{
+        display: block;
+        width: 1590px;
+        top: 590px;
+        left: 350px;
+    }
+    #db{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        top: 650px;
+        left: 10px;
+    }
+    button{
+        display: unset;
+        font-size: 80px;
+        margin: 20px;
+        padding: 20px 40px;
+    }
+}
